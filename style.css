@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background: #fff;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.page {
+    max-width: 850px;
+    margin: 55px auto 80px;
+    padding: 0 30px;
+}
+
+a {
+    color: #1f5f99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+    margin-bottom: 45px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+/* Sections */
+
+section {
+    margin-top: 42px;
+}
+
+h2 {
+    margin: 0 0 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+/* Publications */
+
+.publication {
+    margin: 25px 0 38px;
+}
+
+.publication h3 {
+    margin: 0 0 7px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.publication a {
+    margin-right: 8px;
+}
+
+
+/* Lists */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 60px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #888;
+    font-size: 13px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+    .page {
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profile-photo {
+        width: 160px;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+}
